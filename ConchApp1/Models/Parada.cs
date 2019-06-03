@@ -24,6 +24,9 @@ namespace ConchApp1.Models
         public string Administrador { get; set; }
 
         [Required]
+        public string Coordenadas { get; set; }
+
+        [Required]
         [StringLength(100)]
         public string Sindicato { get; set; }
     }

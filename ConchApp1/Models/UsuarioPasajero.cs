@@ -24,11 +24,17 @@ namespace ConchApp1.Models
         public string Apellido { get; set; }
 
         [Required]
+        [StringLength(20)]
+        public string Telefono { get; set; }
+
+        [Required]
         [StringLength(80)]
         public string Correo { get; set; }
 
         [Required]
-        [StringLength(20)]
-        public string Telefono { get; set; }
+        [StringLength(50)]
+        public string Contrasena { get; set; }
+
+       
     }
 }
