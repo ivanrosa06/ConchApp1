@@ -34,8 +34,11 @@ namespace ConchApp1.Models
         public string Telefono { get; set; }
 
         [Required]
-        [StringLength(40)]
-        public string parada { get; set; }
+        public int parada { get; set; }
+
+        [Required]
+        [StringLength(20)]
+        public String Status { get; set; }
 
         [Required]
         [StringLength(40)]

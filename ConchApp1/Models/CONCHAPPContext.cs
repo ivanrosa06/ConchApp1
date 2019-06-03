@@ -13,9 +13,10 @@ namespace ConchApp1.Models
             :base("CONCHAPPDBContext")
         {
         }
-
+        public DbSet<Parada> Paradas { get; set; }
         public DbSet<UsuariosTransportistas> UsuariosTransportistas { get; set; }
-        public DbSet<UsuarioPasajero> usuarioPasajeros { get; set; }
+        public DbSet<UsuarioPasajero> UsuarioPasajeros { get; set; }
         
+
     }
 }

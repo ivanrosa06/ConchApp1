@@ -116,6 +116,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CONCHAPPContext.cs" />
     <Compile Include="Models\Parada.cs" />
     <Compile Include="Models\Puntacion.cs" />
